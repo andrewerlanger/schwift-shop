@@ -1,0 +1,17 @@
+<div class="full-height">
+<div class="container">
+
+  <!-- FILTERS -->
+  <%= render 'shared/filters' %>
+
+  <!-- CELESTIALS -->
+
+  <div class="row index-margin-bottom">
+    <% @celestials.each do |celestial| %>
+    <div class="col-md-4" align="center">
+      <%= render 'shared/card', celestial: celestial  %>
+    </div>
+    <% end %>
+  </div>
+</div>
+</div>

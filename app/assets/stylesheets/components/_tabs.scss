@@ -1,0 +1,109 @@
+* {box-sizing: border-box}
+
+/* Style the tab */
+i {
+  font-size: 20px;
+}
+
+.tab {
+    float: left;
+    border:1px solid black;
+    background-color: black;
+    width: 30%;
+    height: 300px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 40px 30px;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    transition: all 0.5s ease;
+    background-color: $gold;
+    color: black;
+    font-weight: bold;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    transition: all 0.3s ease;
+    background-color: $gold;
+}
+
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    float: left;
+    padding: 40px 12px;
+    width: 70%;
+    border-left: none;
+    background-color: white;
+    height: 500px;
+    color: black;
+    border: 1px solid black;
+}
+
+i {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.tablinks {
+  padding: 10px;
+}
+
+.tab-container {
+  margin: 40px;
+
+}
+
+.tab-body {
+
+  margin: 50px;
+
+}
+
+.tab-card {
+
+  margin: 15px;
+
+}
+
+.tab-card content {
+
+}
+
+.tab-body button a {
+
+  color: $gold;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+#delete a {
+
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+
+  &:hover {
+    text-decoration: none;
+  }
+
+}
+//
+
